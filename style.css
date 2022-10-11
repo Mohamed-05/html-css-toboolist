@@ -47,8 +47,8 @@ section.main-logo h1{
 
 .style-section{
     background-color: whitesmoke;
-    color: white;
-    border: 0;
+    color: grey;
+    border: 1px solid grey;
     padding: 5px;
     border-radius: 5px;
 }
