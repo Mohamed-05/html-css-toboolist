@@ -59,24 +59,19 @@ section.main-logo h1{
     overflow: auto;
     margin-top: 1.5rem;
     background-color: white;
+    border: 0;
     margin-top: 2rem;
     padding-left: 1.5rem;
     display: inline-block;
     font-size: 1rem;
 }
 
-.unred-row{
-    background-color: whitesmoke;
-    padding: 0.5rem;
-    border-radius: 90px;
-    color: red;
-    border: solid 1px red;
+.main-task{
+    padding-top: 30px;
 }
 
-.ok{
-    background-color: #2eba9f;
-    border: 1px solid #2eba9f;
-    border-radius: 50%; 
+.main-today, .main-upcoming{
+    padding-top: 30px;
 }
 
 .style-button{
@@ -84,9 +79,58 @@ section.main-logo h1{
     color: white;
     border: 0;
     padding: 5px;
+    padding-top: 10px;
     border-radius: 10px;
+}
+
+.goals{
+    background-color: darkviolet;
+    color: white;
+    border: 0;
+    padding: 5px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+.mobile{
+    background-color: orangered;
+    color: white;
+    border: 0;
+    padding: 5px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+.ok{
+    background-color: rgb(95, 201, 95);
+    color: white;
+    border: 0;
+    padding: 5px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+.section-webalte{
+    background-color: deeppink;
+    color: white;
+    border: 0;
+    padding: 5px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+.section-sales{
+    background-color: green;
+    color: white;
+    border: 0;
+    padding: 5px;
+    padding-top: 10px;
+    border-radius: 10px; 
 }
 
 ul{
     list-style: none;
+}
+
+li{
+    padding-top: 10px;
 }
